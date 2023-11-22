@@ -35,4 +35,8 @@ export interface ScopeOptions {
    * This flag can be used only in conjunction with scope = Scope.REQUEST.
    */
   durable?: boolean;
+  /**
+   * Specifies the custom name of an injected Provider or Controller.
+   */
+  name?: string;
 }
